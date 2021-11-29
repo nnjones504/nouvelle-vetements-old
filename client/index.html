@@ -4,23 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing Page</title>
+    <title>nouvelle-Vêtements</title>
     <!-- import css -->
-    <link rel="stylesheet" href="style.css" />
-    <!-- import google fonts -->
-    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="index.css" />
+    <!-- link favicon -->
+    <link rel="icon" type="image/x-icon" href="/Media/icons/favicon.ico" />
   </head>
   <body>
+    <audio id="myAudio" controls autoplay>
+      <source src="/Media/audio/background-music.mp3" type="audio/mpeg" />
+    </audio>
+
     <section class="showcase">
       <header>
         <div class="toggle"></div>
       </header>
       <video src="/Media/videos/landing-video.mp4" muted loop autoplay></video>
-      <!-- <h2 class="logo"> <img src="/logo/nairobi-main/nouvelle Vêtements-logos_white.png" alt="logo"></h2> -->
       <div class="overlayLogo">
-        <img src="/logo/nairobi-main/nouvelle Vêtements-logos_white.png" />
+        <img
+          src="/Media/logo/nairobi-main/nouvelle Vêtements-logos_white.png"
+        />
       </div>
-      <div class="overlay"></div>
       <div class="text">
         <h2>Introducing</h2>
         <h3>Our F/W 22 Collection</h3>
@@ -44,14 +48,16 @@
         </li>
       </ul>
     </section>
+
     <div class="menu">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">News</a></li>
-        <li><a href="#">Destination</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#">Home.</a></li>
+        <li><a href="#">Shop.</a></li>
+        <li><a href="account.html">Account.</a></li>
+        <li><a href="#">About Us.</a></li>
       </ul>
     </div>
+    
+    <script src="index.js"></script>
   </body>
 </html>
