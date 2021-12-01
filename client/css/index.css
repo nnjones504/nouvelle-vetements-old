@@ -171,6 +171,17 @@ header .logo {
   justify-content: center;
   align-items: center;
 }
+.text .address {
+  position: relative;
+  top: 0px;
+  left: -5%;
+  width: 290px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
 .menu ul {
   position: relative;
 }
@@ -181,7 +192,10 @@ header .logo {
   font-size: 24px;
   color: #111;
   margin: 50px 0;
-  font-weight:lighter;
+  /* font-weight:lighter; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:600;
+  font-size: 30pt;
 }
 .menu ul li a {
   text-decoration: none;
