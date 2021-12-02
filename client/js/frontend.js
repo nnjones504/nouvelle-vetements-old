@@ -2,13 +2,14 @@ const baseURL = `http://localhost:4004/api`;
 
 const errCallback = (error) => console.log(error.response.data);
 const productsContainer = document.querySelector("#productsContainer");
+const footerContainer = document.querySelector(".footerContainer")
 
 const getQuote = () => {
   axios
     .get(`${baseURL}/quote`)
     .then(function (response) {
       const quote = response.data;
-      console.log(quote);
+      createQuoteFooter(quote);
     })
     .catch(errCallback);
 };
@@ -23,10 +24,11 @@ const getAllProducts = () => {
 };
 
 const createProductCard = (product) => {
+  formattedPrice = product.price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ', ')
   return `<div class="column">
     <img src=${product.image} />
     <h2>${product.name}</h2>
-    <p>${product.price}</p>
+    <p>$ ${formattedPrice}</p>
     </div>`;
 };
 
@@ -59,4 +61,9 @@ const displayProducts = (arr) => {
   }
 };
 
+const createQuoteFooter = str => {
+  footerContainer.innerHTML += `<p>${str}</p>`;
+}
+
 getAllProducts();
+getQuote();
