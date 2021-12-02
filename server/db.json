@@ -13,20 +13,20 @@
     {
       "id": 1,
       "name": "shearling coat",
-      "price": 450.00,
+      "price": 450.0,
       "image": "/Media/products/man-jacket.jpeg"
     },
     {
       "id": 2,
       "name": "sunglasses",
-      "price": 150.00,
-      "image": "/Media/products/scarf.jpg"
+      "price": 150.0,
+      "image": "/Media/products/sunglasses.jpeg"
     },
     {
       "id": 3,
       "name": "black trench coat",
       "price": 750.0,
-      "image": "/Media/products/trench.jpeg"
+      "image": "/Media/products/trench.jpg"
     },
     {
       "id": 4,
@@ -43,26 +43,27 @@
     {
       "id": 6,
       "name": "velour suit",
-      "price": 1838.00,
+      "price": 1838.0,
       "image": "/Media/products/velour-suit.jpeg"
     },
     {
       "id": 7,
       "name": "plaid suit",
-      "price": 1718.00,
+      "price": 1718.0,
       "image": "/Media/products/black-white-plaid.webp"
     },
     {
       "id": 8,
       "name": "leopard dress",
-      "price": 750.00,
+      "price": 750.0,
       "image": "/Media/products/leopard-bodysuit.jpeg"
     },
     {
       "id": 9,
       "name": "simple dress",
-      "price": 400.00,
+      "price": 400.0,
       "image": "/Media/products/ballroom-dress.jpeg"
     }
-  ]
+  ],
+  "bag": []
 }
