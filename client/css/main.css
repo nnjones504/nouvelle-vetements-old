@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant:ital,wght@0,300;0,400;1,300;1,400&family=Genos:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 * {
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -32,7 +34,6 @@ nav {
   position: relative;
   flex: 1;
   text-align: right;
-  
 }
 nav ul {
   display: inline-block;
@@ -47,7 +48,6 @@ a:hover {
   color: red;
   letter-spacing: 2px;
   transition: 0.4s;
-  
 }
 .nav-container {
   background-color: transparent;
@@ -80,9 +80,10 @@ a:hover {
   font-weight: 700;
   font-size: 30pt;
 }
-.collection-header {
+.collectionHeader {
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40pt;
+  font-weight: lighter;
 }
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .row {
@@ -97,11 +98,28 @@ a:hover {
 }
 
 .column img {
-    width:  95%;
-    height: 600px;
+  width: 95%;
+  height: 600px;
 }
 
-.column{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: right;
+.column {
+  text-align: right;
+}
+.column h2{
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.column p {
+  font-size: 12pt;
+}
+
+.footerContainer {
+  border-top: 1px solid;
+  border-color: black;
+  padding-top: 10px;
+  font-size: 10px;
+  padding-bottom: 10px;
+}
+.footerContainer p{
+  text-align: center;
 }
