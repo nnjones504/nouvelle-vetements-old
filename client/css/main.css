@@ -93,12 +93,12 @@ a:hover {
   flex: 33.33%;
   padding-left: 2%;
   padding-bottom: 2%;
-  padding-right: 2%;
+  padding-right: 3%;
 }
 
 .column img {
     width:  95%;
-    height: 700px;
+    height: 600px;
 }
 
 .column{
