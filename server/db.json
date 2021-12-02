@@ -6,62 +6,62 @@
     "Freeing yourself was one thing, claiming ownership of that freed self was another. - Toni Morrison",
     "“Never be limited by other people’s limited imaginations.” —Dr. Mae Jemison",
     "“In recognizing the humanity of our fellow beings, we pay ourselves the highest tribute.” — Thurgood Marshall",
-    "“He who is not courageous enough to take risks will accomplish nothing in life.c — Muhammad Ali",
+    "“He who is not courageous enough to take risks will accomplish nothing in life. — Muhammad Ali",
     "“Worrying does not take away tomorrow's troubles, it takes away today's peace. - Randy Armstrong”"
   ],
   "products": [
     {
       "id": 1,
       "name": "shearling coat",
-      "price": 450.0,
+      "price": 1110.00,
       "image": "/Media/products/man-jacket.jpeg"
     },
     {
       "id": 2,
       "name": "sunglasses",
-      "price": 150.0,
+      "price": 500.00,
       "image": "/Media/products/sunglasses.jpeg"
     },
     {
       "id": 3,
       "name": "black trench coat",
-      "price": 750.0,
+      "price": 1750.00,
       "image": "/Media/products/trench.jpg"
     },
     {
       "id": 4,
       "name": "white leather jacket",
-      "price": 450.0,
+      "price": 1450.00,
       "image": "/Media/products/white-jacket.jpeg"
     },
     {
       "id": 5,
-      "name": "print-dress",
-      "price": 450.0,
+      "name": "print dress",
+      "price": 1200.00,
       "image": "/Media/products/dress-car.jpeg"
     },
     {
       "id": 6,
-      "name": "velour suit",
-      "price": 1838.0,
+      "name": "velvet suit",
+      "price": 4440.0,
       "image": "/Media/products/velour-suit.jpeg"
     },
     {
       "id": 7,
       "name": "plaid suit",
-      "price": 1718.0,
+      "price": 3250.0,
       "image": "/Media/products/black-white-plaid.webp"
     },
     {
       "id": 8,
       "name": "leopard dress",
-      "price": 750.0,
+      "price": 1100.0,
       "image": "/Media/products/leopard-bodysuit.jpeg"
     },
     {
       "id": 9,
       "name": "simple dress",
-      "price": 400.0,
+      "price": 700.00,
       "image": "/Media/products/ballroom-dress.jpeg"
     }
   ],
