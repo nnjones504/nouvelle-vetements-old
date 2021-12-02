@@ -15,15 +15,17 @@
     <h3 class="noLabel">no labels. no sizes. just you.</h3>
     <div class="nav-container">
       <nav class="navbar">
-        <img
-          class="logo"
-          src="/Media/logo/nairobi-2nd/nouvelle Vêtements-logos_black-cropped.png"
-          width="125px"
-        />
+        <a href="/client/html/main.html">
+          <img
+            class="logo"
+            src="/Media/logo/nairobi-2nd/nouvelle Vêtements-logos_black-cropped.png"
+            width="125px"
+          />    
+          </a>
         <nav>
           <ul>
             <li><a href="#">SIGN UP</a></li>
-            <li><a href="#">SIGN IN</a></li>
+            <li><a href="/client/html/signup.html">SIGN IN</a></li>
             <li><a href="#">BAG</a></li>
           </ul>
         </nav>
@@ -45,64 +47,11 @@
       <div class="centered">FALL/WINTER 22<br />COLLECTION</div>
     </div>
 
-    <div class="collection">
-      <h1 class="collection-header">THE COLLECTION.</h1>
+    <section id="productsContainer"></section>
 
-      <div class="row">
-        <div class="column">
-          <img src="/Media/products/man-jacket.jpeg" />
-          <h2>shearling coat.</h2>
-          <p>450.00</p>
-        </div>
-        <div class="column">
-          <img src="/Media/products/sunglasses.jpeg" />
-          <h2>sunglasses.</h2>
-          <p>450.00</p>
-        </div>
-        <div class="column">
-          <img src="/Media/products/trench.jpg" />
-          <h2>trench</h2>
-          <p>450.00</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="column">
-          <img src="/Media/products/white-jacket.jpeg" />
-          <h2>white leather jacket.</h2>
-          <p>450.00</p>
-        </div>
-        <div class="column">
-          <img src="/Media/products/dress-car.jpeg" />
-          <h2>print dress.</h2>
-          <p>450.00</p>
-        </div>
-        <div class="column">
-          <img src="/Media/products/velour-suit.jpeg" />
-          <h2>velvet suit.</h2>
-          <p>450.00</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="column">
-          <img src="/Media/products/black-white-plaid.webp" />
-          <h2>plaid suit.</h2>
-          <p>450.00</p>
-        </div>
-        <div class="column">
-          <img src="/Media/products/leopard-bodysuit.jpeg" />
-          <h2>leopard bodyuit.</h2>
-          <p>450.00</p>
-        </div>
-        <div class="column">
-          <img src="/Media/products/ballroom-dress.jpeg" />
-          <h2>simple dress.</h2>
-          <p>450.00</p>
-        </div>
-      </div>
-    </div>
 
     <script src="/client/js/main.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="/client/js/frontend.js"></script>
   </body>
 </html>
